@@ -25,7 +25,7 @@ body{
 main .container
 {
 
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: white;
 }
 
@@ -33,63 +33,63 @@ main .container .image{
     text-align: center;
 }
 main .container .image img{
-    width: 400px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    width: 25rem;
+    border-top-right-radius: 0.625rem;
+    border-top-left-radius: 0.625rem;
    
 }
 
 
 
 
-@media (max-width:575px){
+@media (max-width:35.9375rem){
     main .container .image img{
-        width: 360px;
+        width: 22.5rem;
     }
     .container{
-        width: 360px;
+        width: 22.5rem;
     }
 }
 main .container .info{
-    padding: 20px;
+    padding: 1.25rem;
 }
 main .container .info h1{
     color: var(--Very-Dark-Grayish-Blue);
-    width: 350px;
-    font-size: 20px;
+    width: 21.875rem;
+    font-size: 1.25rem;
  
-   margin-bottom: 10px;
+   margin-bottom: 0.625rem;
 }
 main .container .info p{
     color: var(--Desaturated-Dark-Blue);
-    width: 350px;
-    font-size: 16px;
+    width: 21.875rem;
+    font-size: 1rem;
     margin: 0;
 }
-@media (max-width:575px){
+@media (max-width:35.9375rem){
     main .container .info h1{
-        width: 325px;
+        width: 20.3125rem;
     }
     main .container .info p{
-        width: 325px;
+        width: 20.3125rem;
     }
 }
 
-@media (min-width:768px) { /*medium devices*/
+@media (min-width:48rem) { /*medium devices*/
     main .container{
         display: flex;
     }
     main .container .image img{
         border-radius: 0;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+        border-top-left-radius: 0.625rem;
+        border-bottom-left-radius: 0.625rem;
         height: 100%;
     }
     main .container .info h1{
-        width: 280px;
+        width: 17.5rem;
     }
     main .container .info p{
-        width: 280px;
+        width: 17.5rem;
     }
     
 }
@@ -97,25 +97,25 @@ main .container .info p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 1.25rem;
     position: relative;
 }
 
 .nameandpic .michellepic{
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     
 }
 .left{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.3125rem;
 }
 .michelleinfo h2{
     color: var(--Very-Dark-Grayish-Blue);
-    margin-bottom: 5px;
-    font-size: 18px;
+    margin-bottom: 0.3125rem;
+    font-size: 1.125rem;
 }
 .michelleinfo p{
     color: var(--Desaturated-Dark-Blue);
@@ -143,10 +143,10 @@ main .container .info p{
     width: 100%;
     display: none;
     background-color: var(--Very-Dark-Grayish-Blue);
-    padding: 20px;
-    bottom: 0px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    padding: 1.25rem;
+    bottom: 0rem;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
     justify-content: space-around;
     
 
@@ -154,40 +154,40 @@ main .container .info p{
 
 .sharemenu p{
     color: var(--Grayish-Blue);
-    letter-spacing: 5px;
+    letter-spacing: 0.3125rem;
 }
 .sharemenu.open{
     display: flex;
 }
 .sharebutton .share{
     
-    width: 25px;
+    width: 1.5625rem;
     position: relative;
     
 }
 .sharemenu .shareb{
     
-    width: 25px;
+    width: 1.5625rem;
    
 }
 .sharemenu img{
     cursor: pointer;
 }
 
-@media (min-width:768px){
+@media (min-width:48rem){
     .sharemenu{
         bottom: initial;
-        top: -50px;
-        border-radius: 10px;
+        top: -3.125rem;
+        border-radius: 0.625rem;
         left: 50%;
     }
     .sharemenu.open::before{
         content: "";
         position: absolute;
-        border-width: 15px;
+        border-width: 0.9375rem;
         border-style: solid;
         border-color: var(--Very-Dark-Grayish-Blue) transparent  transparent transparent;
-        bottom: -29px;
+        bottom: -1.8125rem;
         /* left: ; */
         transform: translatex(-100%);
      
@@ -198,27 +198,27 @@ main .container .info p{
     }
 }
 
-@media (min-width:576px) { /*small devices*/
+@media (min-width:36rem) { /*small devices*/
     .container{
-        max-width: 540px;
+        max-width: 33.75rem;
     }
     
 }
-@media (min-width:768px) { /*medium devices*/
+@media (min-width:48rem) { /*medium devices*/
     .container{
-        max-width: 720px;
+        max-width: 45rem;
     }
     
 }
-@media (min-width:992px) { /*pc devices*/
+@media (min-width:62rem) { /*pc devices*/
     .container{
-        max-width: 960px;
+        max-width: 60rem;
     }
     
 }
-@media (min-width:1200px) { /*large devices*/
+@media (min-width:75rem) { /*large devices*/
     .container{
-        max-width: 1140px;
+        max-width: 71.25rem;
     }
     
 }
