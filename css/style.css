@@ -151,15 +151,7 @@ main .container .info p{
     
 
 }
-@media (min-width:768px){
-    .sharemenu{
-        bottom: initial;
-        top: -50px;
-        border-radius: 10px;
-        left: 50%;
-    }
-    
-}
+
 .sharemenu p{
     color: var(--Grayish-Blue);
     letter-spacing: 5px;
@@ -170,6 +162,7 @@ main .container .info p{
 .sharebutton .share{
     
     width: 25px;
+    position: relative;
     
 }
 .sharemenu .shareb{
@@ -179,6 +172,26 @@ main .container .info p{
 }
 .sharemenu img{
     cursor: pointer;
+}
+
+@media (min-width:768px){
+    .sharemenu{
+        bottom: initial;
+        top: -50px;
+        border-radius: 10px;
+        left: 50%;
+    }
+    .sharemenu.open::before{
+        content: "";
+        position: absolute;
+        border-width: 15px;
+        border-style: solid;
+        border-color: var(--Very-Dark-Grayish-Blue) transparent  transparent transparent;
+        bottom: -29px;
+        /* left: ; */
+        transform: translatex(-100%);
+     
+    }
 }
 
 @media (min-width:576px) { /*small devices*/
