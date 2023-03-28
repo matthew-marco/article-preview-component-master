@@ -192,6 +192,10 @@ main .container .info p{
         transform: translatex(-100%);
      
     }
+
+    .shareb{
+        display: none;
+    }
 }
 
 @media (min-width:576px) { /*small devices*/
